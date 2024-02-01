@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\PostRequest;
+use App\Http\Requests\PostUpdateRequest;
 use App\Models\Post;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
@@ -18,7 +19,7 @@ class PostController extends Controller
             'posts' => Post::all(),
         ]);
     }
-    function update(PostRequest $request, Post $post){
+    function update(PostUpdateRequest $request, Post $post){
 
         $post->update($request->all());
         return redirect()->route('post.index');
