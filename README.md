@@ -12,3 +12,9 @@ En la tarea del aula virtual, vas a poder descargarte el archivo del trabajo, co
 
 ### Enlace de mi proyecto desplegado 
 [Proyecto Gates](http://fgonzalez_form_test.randion.es)
+
+### Credenciales de usuarios con diferente rol
+
+#### Usuario Admin: adminfran@gmail.com / fran1234
+#### Usuario Propietario : samu@gmail.com / fran1234
+#### Usuario Invitado : fran@gmail.com / fran1234
